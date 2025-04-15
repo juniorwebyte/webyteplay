@@ -1,0 +1,20 @@
+[13-Jan-2025 21:00:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required 'pages/inc/header.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/m7on8jsw/public_html/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/m7on8jsw/public_html/index.php on line 5
+[13-Jan-2025 21:15:18 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rifa1gestor.system_info' doesn't exist in /home/m7on8jsw/public_html/class/System.php:28
+Stack trace:
+#0 /home/m7on8jsw/public_html/class/System.php(28): mysqli->query('SELECT * FROM s...')
+#1 /home/m7on8jsw/public_html/class/System.php(556): System->load_system_info()
+#2 /home/m7on8jsw/public_html/settings.php(1851): require_once('/home/m7on8jsw/...')
+#3 /home/m7on8jsw/public_html/index.php(4): require_once('/home/m7on8jsw/...')
+#4 {main}
+  thrown in /home/m7on8jsw/public_html/class/System.php on line 28
+[13-Jan-2025 21:15:19 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rifa1gestor.system_info' doesn't exist in /home/m7on8jsw/public_html/class/System.php:28
+Stack trace:
+#0 /home/m7on8jsw/public_html/class/System.php(28): mysqli->query('SELECT * FROM s...')
+#1 /home/m7on8jsw/public_html/class/System.php(556): System->load_system_info()
+#2 /home/m7on8jsw/public_html/settings.php(1851): require_once('/home/m7on8jsw/...')
+#3 /home/m7on8jsw/public_html/index.php(4): require_once('/home/m7on8jsw/...')
+#4 {main}
+  thrown in /home/m7on8jsw/public_html/class/System.php on line 28

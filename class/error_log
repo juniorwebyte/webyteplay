@@ -1,0 +1,12 @@
+[13-Jan-2025 19:49:53 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`rifa1gestor`.`cart_list`, CONSTRAINT `customer_id_fk_cl` FOREIGN KEY (`customer_id`) REFERENCES `customer_list` (`id`) ON DELETE CASCADE) in /home/m7on8jsw/public_html/class/Main.php:844
+Stack trace:
+#0 /home/m7on8jsw/public_html/class/Main.php(844): mysqli->query('INSERT INTO `ca...')
+#1 /home/m7on8jsw/public_html/class/Main.php(5101): Main->add_to_card()
+#2 {main}
+  thrown in /home/m7on8jsw/public_html/class/Main.php on line 844
+[13-Jan-2025 21:02:50 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`rifa1gestor`.`cart_list`, CONSTRAINT `customer_id_fk_cl` FOREIGN KEY (`customer_id`) REFERENCES `customer_list` (`id`) ON DELETE CASCADE) in /home/m7on8jsw/public_html/class/Main.php:844
+Stack trace:
+#0 /home/m7on8jsw/public_html/class/Main.php(844): mysqli->query('INSERT INTO `ca...')
+#1 /home/m7on8jsw/public_html/class/Main.php(5101): Main->add_to_card()
+#2 {main}
+  thrown in /home/m7on8jsw/public_html/class/Main.php on line 844

@@ -1,0 +1,6 @@
+[13-Jan-2025 19:37:12 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/m7on8jsw/public_html/admin/cotas/index.php:237
+Stack trace:
+#0 /home/m7on8jsw/public_html/admin/cotas/index.php(237): mysqli->query('SELECT * FROM p...')
+#1 /home/m7on8jsw/public_html/admin/index.php(19): include('/home/m7on8jsw/...')
+#2 {main}
+  thrown in /home/m7on8jsw/public_html/admin/cotas/index.php on line 237

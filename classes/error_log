@@ -1,0 +1,12 @@
+[14-Jan-2025 00:21:18 UTC] PHP Fatal error:  Uncaught Error: Class "DBConnection" not found in /home/m7on8jsw/public_html/classes/Login.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/m7on8jsw/public_html/classes/Login.php on line 4
+[14-Jan-2025 00:23:36 UTC] PHP Fatal error:  Uncaught Error: Class "DBConnection" not found in /home/m7on8jsw/public_html/classes/Users.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/m7on8jsw/public_html/classes/Users.php on line 4
+[14-Jan-2025 00:23:46 UTC] PHP Fatal error:  Uncaught Error: Class "DBConnection" not found in /home/m7on8jsw/public_html/classes/Users.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/m7on8jsw/public_html/classes/Users.php on line 4
